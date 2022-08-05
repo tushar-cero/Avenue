@@ -1,0 +1,42 @@
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 36px;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: "Roboto", sans-serif;
+}
+header .header_background,
+header:hover {
+	background-color: var(--background-color-dark-gamma);
+	transition: all 0.35s ease-out;
+}
+
+header .header_logo {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+header ul {
+	display: inline-flex;
+	gap: 36px;
+	justify-content: center;
+	align-items: center;
+}
+header ul li:hover {
+	color: var(--tertiary-color-beta);
+	transition: all 0.35s ease-out;
+}
+
+header .toggle_menu_container {
+	display: none;
+}
+@media (max-width: 1200px) {
+	header .toggle_menu_container {
+		display: block;
+	}
+	header ul {
+		display: none;
+	}
+}

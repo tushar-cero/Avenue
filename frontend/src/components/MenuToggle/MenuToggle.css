@@ -1,0 +1,44 @@
+.menu_toggle,
+.menu_toggle button,
+.menu_toggle button .menu_toggle_toggle {
+	height: 36px;
+	width: 36px;
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+.menu_toggle button .menu_toggle_toggle {
+	position: relative;
+}
+.menu_toggle button .menu_toggle_toggle .menu_bar {
+	height: 4px;
+	width: 30px;
+	background-color: var(--background-color-light-alpha);
+	border-radius: 2px;
+}
+.menu_toggle button .menu_toggle_toggle .menu_bar_top {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	transform: rotate(0deg);
+	transition: all 0.2s ease;
+}
+.menu_toggle button .menu_toggle_toggle .menu_bar_bottom {
+	position: absolute;
+	top: 24px;
+	right: 0;
+	transform: rotate(0deg);
+	transition: all 0.2s ease;
+}
+.menu_toggle button .menu_toggle_toggle #menu_bar_top.openTop {
+	top: 50%;
+	left: 0%;
+	transform: rotate(45deg);
+	transition: all 0.2s ease;
+}
+.menu_toggle button .menu_toggle_toggle #menu_bar_bottom.openBottom {
+	top: 50%;
+	left: 0%;
+	transform: rotate(-45deg);
+	transition: all 0.2s ease;
+}

@@ -1,0 +1,76 @@
+#NavigationSideDrawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 5;
+    padding-top: 100px;
+    background-color: var(--background-color-dark-alpha);
+    color: var(--text-color-light-alpha);
+    transform: translateX(200%);
+    transition: all 0.35s ease-out;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#NavigationSideDrawer.openNavbar {
+    transform: translateX(0);
+    transition: all 0.4s ease-in;
+}
+#NavigationSideDrawer ul {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Rowdies", cursive;
+    min-height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#NavigationSideDrawer ul li {
+    padding: 16px;
+    margin: 24px 0;
+    position: relative;
+}
+
+#NavigationSideDrawer ul li a:hover,
+#NavigationSideDrawer .close_btn:hover {
+    color: var(--primary-color);
+    transition: all 0.35s ease-in;
+}
+#NavigationSideDrawer ul li a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: blue;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+#NavigationSideDrawer ul li a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media (max-width: 600px) {
+    #NavigationSideDrawer {
+        padding-top: 80px;
+    }
+    #NavigationSideDrawer ul {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    #NavigationSideDrawer ul li {
+        padding: 16px;
+        margin: 0;
+    }
+}
