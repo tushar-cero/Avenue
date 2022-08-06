@@ -35,8 +35,17 @@ header .toggle_menu_container {
 @media (max-width: 1200px) {
 	header .toggle_menu_container {
 		display: block;
+		font-size: 24px;
 	}
 	header ul {
 		display: none;
+	}
+}
+@media (max-width: 480px) {
+	header {
+		padding: 24px;
+	}
+	header .header_logo {
+		font-size: 18px;
 	}
 }

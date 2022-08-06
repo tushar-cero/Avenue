@@ -51,6 +51,12 @@ main {
 	color: var(--text-color-light-alpha);
 }
 
+button {
+	background: none;
+	color: inherit;
+	border: none;
+}
+
 /*----------PSUDO CLASSES----------*/
 
 :root {
