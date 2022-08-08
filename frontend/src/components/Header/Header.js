@@ -10,10 +10,9 @@ const Header = () => {
 			<div>
 				<ul>
 					<li><Link to="/">HOME</Link></li>
-					<li><Link to="/">ABOUT</Link></li>
-					<li><Link to="/">OUR MISSION</Link></li>
+					<li><Link to="/about">ABOUT</Link></li>
 					<li><Link to="/">BLOGS</Link></li>
-					<li><Link to="/">TEAM</Link></li>
+					<li><Link to="/team">TEAM</Link></li>
 				</ul>
 			</div>
 			<div className="toggle_menu_container">
