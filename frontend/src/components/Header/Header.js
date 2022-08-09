@@ -16,7 +16,7 @@ const Header = () => {
 				</ul>
 			</div>
 			<div className="toggle_menu_container">
-				<button onClick={() => {
+				<button  aria-label="Left Align" onClick={() => {
 					let element = document.getElementById("NavigationSideDrawer");
 					element.classList.add("openNavbar");
 					// Get the current page scroll position

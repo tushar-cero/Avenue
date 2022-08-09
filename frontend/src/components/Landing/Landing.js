@@ -3,7 +3,7 @@ import Header from "../Header/Header.js";
 import NavigationSidedrawer from '../NavigationSideDrawer/NavigationSideDrawer.js';
 import "./Landing.css";
 
-import bgi_1 from "../../assets/background_images/landing_background.avif";
+import bgi_1 from "../../assets/background_images/landing_background.png";
 import bgi_2 from "../../assets/background_images/landing_background_2.jpeg";
 import bgi_3 from "../../assets/background_images/landing_background_3.jpeg";
 import bgi_4 from "../../assets/background_images/landing_background_4.jpeg";

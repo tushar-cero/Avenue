@@ -7,7 +7,7 @@ const NavigationSidedrawer = () => {
     return (
         <div id="NavigationSideDrawer" className="">
             <div className="NavigationSideDrawerClosing">
-                <button onClick={()=> {
+                <button aria-label="Left Align" onClick={()=> {
                     let element = document.getElementById("NavigationSideDrawer");
                     element.classList.remove("openNavbar");
                     window.onscroll = () => {};

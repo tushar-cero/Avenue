@@ -5,6 +5,11 @@ const Team = () => {
     return (
         <React.Fragment>
             <Landing heading="OUR TEAM"/>
+            <article className='Team'>
+                <div className='container'>
+                    
+                </div>
+            </article>
         </React.Fragment>
     )
 }

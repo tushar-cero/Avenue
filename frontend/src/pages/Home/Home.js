@@ -20,18 +20,18 @@ const Home = () => {
                             <p>Our mission is to scale your growth. Our culture focuses on holistic development, providing you with a competitive advantage through strategic skills and mindset. Drink from the firehose of innovation with us at DYPIU.</p>
                             <div className="social_media_icons flex_space_around">
                                 <div>
-                                    <a aria-hidden="true" aria-label="icon" href="mailto:avenue@dypiu.ac.in">
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <a aria-label="icon" href="mailto:avenue@dypiu.ac.in">
+										<i className="fa fa-envelope-o" aria-hidden="true"></i>
 									</a>
                                 </div>
                                 <div>
-                                    <a aria-hidden="true" aria-label="icon" href="https://www.instagram.com/avenuedypiu/">
-										<i class="fa fa-instagram" aria-hidden="true"></i>
+                                    <a aria-label="icon" href="https://www.instagram.com/avenuedypiu/">
+										<i className="fa fa-instagram" aria-hidden="true"></i>
 									</a>
                                 </div>
                                 <div>
-                                    <a aria-hidden="true" aria-label="icon" href="https://twitter.com/avenuebase">
-										<i class="fa fa-twitter" aria-hidden="true"></i>
+                                    <a aria-label="icon" href="https://twitter.com/avenuebase">
+										<i className="fa fa-twitter" aria-hidden="true"></i>
 									</a>
                                 </div>
                             </div>
@@ -71,8 +71,8 @@ const Home = () => {
                 <div className="container">
                     <h1 className="home_article_header">Our Previous Events</h1>
                     <div className="home_previous_events_grid_container">
-                        <div><a href="https://www.youtube.com/watch?v=8fgPNSyFSwo"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_1 background_image_contain"></div></a></div>
-                        <div><a href="https://www.youtube.com/watch?v=z0A_XRAXj8w"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_2 background_image_contain"></div></a></div>
+                        <div><a aria-label="YT Link" href="https://www.youtube.com/watch?v=8fgPNSyFSwo"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_1 background_image_contain"></div></a></div>
+                        <div><a aria-label="YT Link" href="https://www.youtube.com/watch?v=z0A_XRAXj8w"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_2 background_image_contain"></div></a></div>
                         <div><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_3 background_image_contain"></div></div>
                         <div><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_4 background_image_contain"></div></div>
                     </div>
