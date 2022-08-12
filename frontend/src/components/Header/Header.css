@@ -6,10 +6,12 @@ header {
 	font-size: 18px;
 	font-weight: 600;
 	font-family: "Roboto", sans-serif;
-	background-color: var(	--background-color-light-alpha);
-	z-index: 5;
+	z-index: 2;
 }
-header .header_background,
+header.header_background {
+	background-color: var(--background-color-light-alpha);
+	transition: all 0.35s ease-out;
+}
 header:hover {
 	background-color: var(--background-color-light-gamma);
 	transition: all 0.35s ease-out;

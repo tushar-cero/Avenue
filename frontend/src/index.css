@@ -14,7 +14,6 @@
 	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	z-index: 2;
 	font-family: "Open Sans", sans-serif;
 }
 html {
@@ -72,7 +71,7 @@ button {
 	--background-color-light-alpha: #f9f9f9;
 	--background-color-light-gamma: #fff;
 
-	--border-color: ;
+	--border-color: rgb(200, 200, 200);
 	--border-color-active: ;
 
 	--text-color-dark-alpha: #111;
@@ -91,10 +90,9 @@ button {
 
 .container {
 	max-width: 1200px;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-inline: 1rem;
 	margin: 0 auto;
-	z-index: 2;
+	z-index: 1;
 }
 .background_image_contain {
 	background-image: inherit;

@@ -1,32 +1,38 @@
 .Page_Landing {
-    padding-top: 160px;
-}
-
-.Page_Landing .page_landing_container .page_landing_container_background {
-    height: 200px;
-    width: 100%;
-    border-radius: 24px;
-}
-.Page_Landing .page_landing_container .page_landing_container_text {
     position: relative;
-    top: -40px;
-    left: 0;
+    padding-top: 160px;
+    background-color: var(--background-color-light-gamma);
+    min-height: 500px;
+}
+.Page_Landing .landing_background {
+    position: absolute;
+    top: 0;
     right: 0;
-    margin: 0 auto;
-    background-color: var(--background-color-light-alpha);
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/background_images/rocket_background_1.jpeg');
+}
+
+.Page_Landing .landing_heading {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.Page_Landing .landing_heading .page_landing_container_text {
     color: var(--text-color-dark-alpha);
-
-    font-size: 24px;
-    font-weight: 700;
-    padding: 24px 54px;
-    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    padding: 36px 48px;
+    border-radius: 24px;    
+    min-width: 80%;
     text-align: center;
-    width: fit-content;
-    height: 80px;
+    font-size: 60px;
+    font-weight: 700;
+    /* border: 1px dashed pink; */
 }
 
-@media (max-width: 480px) {    
-    .Page_Landing {
-        padding-top: 100px;
-    }
-}
+@media (max-width: 960px){.Page_Landing .landing_heading .page_landing_container_text{font-size: 54px;}}
+@media (max-width: 480px){.Page_Landing .landing_heading .page_landing_container_text{font-size: 42px;}}

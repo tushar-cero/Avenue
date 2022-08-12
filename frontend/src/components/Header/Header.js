@@ -1,11 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
+
+	const [headerBackground, setHeaderBackground] = useState(false);
+    const handleHeaderBackground = () => {
+        if(window.scrollY >= 100)
+            setHeaderBackground(true); 
+        else
+            setHeaderBackground(false); 
+    }
+    window.addEventListener('scroll', handleHeaderBackground);
 	
 	return (
-		<header className="flex_space_between">
+		<header className={headerBackground?'header_background flex_space_between':'flex_space_between'}>
 			<Link to="/"><div className="header_logo"><span role="img" aria-label="rocket-emogi">🚀</span>Avenue</div></Link>
 			<div>
 				<ul>

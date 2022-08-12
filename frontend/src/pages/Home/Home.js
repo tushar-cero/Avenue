@@ -45,6 +45,7 @@ const Home = () => {
                     <div className="home_landing_form">
                         <form></form>
                     </div>
+                    <div className="circle"></div>
                 </div>
             </article>
 
@@ -71,10 +72,10 @@ const Home = () => {
                 <div className="container">
                     <h1 className="home_article_header">Our Previous Events</h1>
                     <div className="home_previous_events_grid_container">
-                        <div><a aria-label="YT Link" href="https://www.youtube.com/watch?v=8fgPNSyFSwo"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_1 background_image_contain"></div></a></div>
-                        <div><a aria-label="YT Link" href="https://www.youtube.com/watch?v=z0A_XRAXj8w"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_2 background_image_contain"></div></a></div>
-                        <div><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_3 background_image_contain"></div></div>
-                        <div><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_4 background_image_contain"></div></div>
+                        <div><a aria-label="YT Link" href="https://www.youtube.com/watch?v=8fgPNSyFSwo"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_1 background_image"></div></a></div>
+                        <div><a aria-label="YT Link" href="https://www.youtube.com/watch?v=z0A_XRAXj8w"><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_2 background_image"></div></a></div>
+                        <div><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_3 background_image"></div></div>
+                        <div><div className="home_previous_events_grid_container_item home_previous_events_grid_container_item_4 background_image"></div></div>
                     </div>
                 </div>
             </article>
