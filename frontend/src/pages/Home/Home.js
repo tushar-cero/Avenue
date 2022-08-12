@@ -16,22 +16,26 @@ const Home = () => {
                 <div className="container">
                     <div className="home_landing_grid_container flex_regular">
                         <div>
-                            <h1><span className="highlight_header">Welcome to Avenue</span><span role="img" aria-label="rocket-emogi">🚀</span></h1>
+                            <h1 className="home_article_header">Welcome to Avenue</h1>
                             <p>Our mission is to scale your growth. Our culture focuses on holistic development, providing you with a competitive advantage through strategic skills and mindset. Drink from the firehose of innovation with us at DYPIU.</p>
+                            <div className="join_us_links flex_wrap">
+                                <div><a href="www.google.com" className="join_us_links_btn join_us_links_discord"><i className="fa-brands fa-discord" aria-hidden="true"></i>  JOIN DISCORD</a></div>
+                                <div><a href="www.google.com" className="join_us_links_btn join_us_links_whatsapp"><i className="fa-brands fa-whatsapp" aria-hidden="true"></i> JOIN WHATSAPP</a></div>
+                            </div>
                             <div className="social_media_icons flex_space_around">
                                 <div>
                                     <a aria-label="icon" href="mailto:avenue@dypiu.ac.in">
-										<i className="fa fa-envelope-o" aria-hidden="true"></i>
+										<i className="fa-regular fa-envelope" aria-hidden="true"></i>
 									</a>
                                 </div>
                                 <div>
                                     <a aria-label="icon" href="https://www.instagram.com/avenuedypiu/">
-										<i className="fa fa-instagram" aria-hidden="true"></i>
+										<i className="fa-brands fa-instagram" aria-hidden="true"></i>
 									</a>
                                 </div>
                                 <div>
                                     <a aria-label="icon" href="https://twitter.com/avenuebase">
-										<i className="fa fa-twitter" aria-hidden="true"></i>
+										<i className="fa-brands fa-twitter" aria-hidden="true"></i>
 									</a>
                                 </div>
                             </div>
@@ -42,10 +46,6 @@ const Home = () => {
                         <form></form>
                     </div>
                 </div>
-                <div className="circle circle1"></div>
-                <div className="circle circle2"></div>
-                <div className="circle circle3"></div>
-                <div className="circle circle4"></div>
             </article>
 
 			<article className="Home_Interns_Showcase">

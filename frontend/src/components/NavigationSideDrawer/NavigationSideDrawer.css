@@ -6,8 +6,8 @@
     height: 100vh;
     overflow: hidden;
     z-index: 5;
-    background-color: var(--background-color-dark-alpha);
-    color: var(--text-color-light-alpha);
+    background-color: var(--background-color-light-alpha);
+    color: var(--text-color-dark-alpha);
     transform: translateX(200%);
     transition: all 0.35s ease-out;
 
@@ -21,6 +21,7 @@
 }
 #NavigationSideDrawer ul {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 600;
     min-height: 400px;
@@ -60,4 +61,10 @@
     left: 0;
     padding: 24px 36px;
     font-size: 42px;
+}
+
+@media (max-width: 480px) {
+    #NavigationSideDrawer ul {
+        font-size: 22px;
+    }
 }

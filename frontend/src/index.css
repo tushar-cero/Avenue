@@ -47,8 +47,8 @@ a {
 }
 
 main {
-	background-color: var(--background-color-dark-alpha);
-	color: var(--text-color-light-alpha);
+	background-color: var(--background-color-light-alpha);
+	color: var(--text-color-dark-alpha);
 }
 
 button {
@@ -75,12 +75,13 @@ button {
 	--border-color: ;
 	--border-color-active: ;
 
-	--text-color-dark-alpha: #333;
-	--text-color-dark-beta: #111;
+	--text-color-dark-alpha: #111;
+	--text-color-dark-beta: #333;
 	--text-color-dark-gamma: #000;
 
 	--text-color-light-alpha: #f0f0f0;
 	--text-color-light-beta: #fff;
+	--text-color-light-gamma: #f9f9f9;
 
 	--white-color: #fff;
 	--black-color: #000;
@@ -277,7 +278,7 @@ button {
 	color: #3b5998;
 	transition: 0.4s ease-out;
 }
-.fa-envelope-o:hover {
+.fa-envelope:hover {
 	color: rgb(219 68 55);
 	transition: 0.4s ease-out;
 }
