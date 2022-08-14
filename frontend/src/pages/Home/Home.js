@@ -6,13 +6,13 @@ import NavigationSideDrawer from '../../components/NavigationSideDrawer/Navigati
 
 const Home = () => {
 
-    window.onscroll = () => {};
+    window.onscroll = () => { };
 
     return (
         <React.Fragment>
             <article className="Home_Landing flex_regular">
                 <Header />
-                <NavigationSideDrawer/>
+                <NavigationSideDrawer />
                 <div className="container">
                     <div className="home_landing_grid_container flex_regular">
                         <div>
@@ -25,50 +25,47 @@ const Home = () => {
                             <div className="social_media_icons flex_space_around">
                                 <div>
                                     <a aria-label="icon" href="mailto:avenue@dypiu.ac.in">
-										<i className="fa-regular fa-envelope" aria-hidden="true"></i>
-									</a>
+                                        <i className="fa-regular fa-envelope" aria-hidden="true"></i>
+                                    </a>
                                 </div>
                                 <div>
                                     <a aria-label="icon" href="https://www.instagram.com/avenuedypiu/">
-										<i className="fa-brands fa-instagram" aria-hidden="true"></i>
-									</a>
+                                        <i className="fa-brands fa-instagram" aria-hidden="true"></i>
+                                    </a>
                                 </div>
                                 <div>
                                     <a aria-label="icon" href="https://twitter.com/avenuebase">
-										<i className="fa-brands fa-twitter" aria-hidden="true"></i>
-									</a>
+                                        <i className="fa-brands fa-twitter" aria-hidden="true"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="flex_regular home_landing_grid_container_image background_image_contain"></div>
                     </div>
-                    <div className="home_landing_form">
-                        <form></form>
-                    </div>
                     <div className="circle"></div>
                 </div>
             </article>
 
-			<article className="Home_Interns_Showcase">
+            <article className="Home_Interns_Showcase">
                 <div className="container">
                     <h1 className="home_article_header">Avenue Interns</h1>
                     <p className="home_article_paragraph">Access the opportunity to apply to premium internships at industry leading companies. Minimum stipend from 5K to 15K. Become part of the most exclusive club bringing you opportunities.</p>
                     <div className="home_interns_showcase_marquee">
                         <div className="home_interns_showcase_marquee_scroll">
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_kpmg background_image"></div>
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_goldman_sachs background_image"></div>
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_unilever background_image"></div>
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_wipro background_image"></div>
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_amazon background_image"></div>
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_back_of_america background_image"></div>
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_bicon background_image"></div>
-							<div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_times_internet background_image_contain background_image"></div>
-						</div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_kpmg background_image"></div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_goldman_sachs background_image"></div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_unilever background_image"></div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_wipro background_image"></div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_amazon background_image"></div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_back_of_america background_image"></div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_bicon background_image"></div>
+                            <div className="home_interns_showcase_marquee_item home_interns_showcase_marquee_item_times_internet background_image_contain background_image"></div>
+                        </div>
                     </div>
                 </div>
             </article>
-            
-			<article className="Home_Previous_Events">
+
+            <article className="Home_Previous_Events">
                 <div className="container">
                     <h1 className="home_article_header">Our Previous Events</h1>
                     <div className="home_previous_events_grid_container">
@@ -121,17 +118,19 @@ const Home = () => {
                 </div>
             </article>
 
-			<article className="Home_Footer">
-				<div className="footer_card">
-					<h1>Be Future Ready, Already. <span role="img" aria-label="star-emogi">🌟</span></h1>
-					<p>At Avenue, we look and expand beyond the conventional ways of career growth. Our vision is to create a collaborative community that thrives on collective wisdom and support.</p>
-					<p>We are always on the lookout for amazing talent like yours. If you're driven, ambitious, and want to leave a dent in the universe? This is the perfect place for you. </p>
-					<p>We are hiring across all divisions. Drop your university email below and we'll get back to you.</p>
-				</div>
-				<footer>
-					<div className="container"><p>© Avenue DYPIU 2022 | All rights reserved. ®</p></div>
-				</footer>
-			</article> 
+            <article className="Home_Footer">
+                <div className="footer_card_container">
+                    <div className="footer_card">
+                        <h1>Be Future Ready, Already. <span role="img" aria-label="star-emogi">🌟</span></h1>
+                        <p>At Avenue, we look and expand beyond the conventional ways of career growth. Our vision is to create a collaborative community that thrives on collective wisdom and support.</p>
+                        <p>We are always on the lookout for amazing talent like yours. If you're driven, ambitious, and want to leave a dent in the universe? This is the perfect place for you. </p>
+                        <p>We are hiring across all divisions. Drop your university email below and we'll get back to you.</p>
+                    </div>
+                </div>
+                <footer className="background_image">
+                    <div className="container"><p>© Avenue DYPIU 2022 | All rights reserved. ®</p></div>
+                </footer>
+            </article>
         </React.Fragment>
     );
 };
