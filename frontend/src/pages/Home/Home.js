@@ -128,7 +128,10 @@ const Home = () => {
                     </div>
                 </div>
                 <footer className="background_image">
-                    <div className="container"><p>© Avenue DYPIU 2022 | All rights reserved. ®</p></div>
+                    <div className="container">
+                        <div className="footer_logo background_image_contain"></div>
+                        <p>© Avenue DYPIU 2022 | All rights reserved. ®</p>
+                    </div>
                 </footer>
             </article>
         </React.Fragment>

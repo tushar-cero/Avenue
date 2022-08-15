@@ -472,7 +472,7 @@ span, .join_us_links_btn i {
 }
 .Home_Footer .footer_card_container {
 	position: absolute;
-	bottom: 160px;
+	bottom: 200px;
 	left: 0;
 	right: 0;
 	margin-inline: auto;
@@ -507,6 +507,12 @@ span, .join_us_links_btn i {
 	background-position: right;
 	color: var(--text-color-light-alpha);
 	z-index: 2;
+}
+.Home_Footer footer .footer_logo {
+	background-image: url(../../assets/logo/logo_no_bg.png);
+	height: 120px;
+	width: 120px;
+	margin: 0 auto;
 }
 @media (max-width: 480px) {
 	.Home_Footer footer {

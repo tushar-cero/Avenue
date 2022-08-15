@@ -60,17 +60,22 @@ button {
 
 :root {
 	--primary-color: #f56772;
-	--secondary-color: #ba6bff;
+	--primary-color-beta: #ba6bff;
+	--secondary-color-alpha: #f7f61c;
 	--tertiary-color-alpha: #4e40f5;
 	--tertiary-color-beta: #8076fe;
-
+	
 	--background-color-dark-alpha: #202020;
 	--background-color-dark-beta: #161616;
 	--background-color-dark-gamma: #000;
-
+	--background-color-dark-delta: rgba(32, 32, 32, 0.75);
+	
 	--background-color-light-alpha: #f9f9f9;
 	--background-color-light-gamma: #fff;
-
+	
+	--background-color-tertiary-alpha: rgba(78, 64, 245, 0.75);
+	--background-color-tertiary-beta: #4e40f5;
+	
 	--border-color: rgb(200, 200, 200);
 	--border-color-active: ;
 

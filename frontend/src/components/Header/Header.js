@@ -15,7 +15,7 @@ const Header = () => {
 	
 	return (
 		<header className={headerBackground?'header_background flex_space_between':'flex_space_between'}>
-			<Link to="/"><div className="header_logo"><span role="img" aria-label="rocket-emogi">🚀</span>Avenue</div></Link>
+			<Link to="/"><div className="header_logo background_image_contain"></div></Link>
 			<div>
 				<ul>
 					<li><Link to="/">HOME</Link></li>
