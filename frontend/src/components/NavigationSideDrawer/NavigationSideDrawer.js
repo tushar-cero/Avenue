@@ -20,8 +20,7 @@ const NavigationSidedrawer = () => {
                     <li><Link to="/">HOME</Link></li>
 					<li><Link to="/about">ABOUT US</Link></li>
 					<li><Link to="/">BLOGS</Link></li>
-					<li><Link to="/team">BECOME A MEMBER</Link></li>
-					<li><Link to="/team">OUR TEAM</Link></li>
+					<li><Link to="/become-a-member">BECOME A MEMBER</Link></li>
                 </ul>
             </nav>
         </div>

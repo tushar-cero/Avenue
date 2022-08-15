@@ -1,0 +1,13 @@
+.Error {
+    padding-top: 100px;
+}
+.Error .error_background {
+    background-image: url(../../assets/background_images/error.png);
+    width: 100%;
+    aspect-ratio: 1;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.Error .btn_primary {
+    max-width: 240px;
+}

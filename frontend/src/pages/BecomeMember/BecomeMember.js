@@ -1,10 +1,9 @@
 import React from 'react'
-import Landing  from '../../components/Landing/Landing.js';
 
-const Team = () => {
+const BecomeMember = () => {
     return (
         <React.Fragment>
-            <Landing heading="OUR TEAM"/>
+
             <article className='Team'>
                 <div className='container'>
                     
@@ -14,4 +13,4 @@ const Team = () => {
     )
 }
 
-export default Team;
+export default BecomeMember;

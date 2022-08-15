@@ -1,11 +1,22 @@
 import React from 'react'
-import Landing  from '../../components/Landing/Landing.js';
 
 const About = () => {
     return (
         <React.Fragment>
-            <Landing heading="ABOUT US"/>
             <article className="About_Landing">
+                <div className="container">
+                </div>
+            </article>
+            <article className='About_Showcase'>
+                <div className="container">
+                </div>
+            </article>
+            <article className='About_Team'>
+                <div className="container">
+                    
+                </div>
+            </article>
+            <article className='About_Footer'>
                 <div className="container">
                 </div>
             </article>

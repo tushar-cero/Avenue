@@ -20,7 +20,6 @@ html {
 	-webkit-font-smoothing: antialiased;
 	overflow-y: scroll;
 }
-
 body::-webkit-scrollbar {
 	display: none;
 }
@@ -45,8 +44,8 @@ a {
 	text-decoration: none;
 }
 
-main {
-	background-color: var(--background-color-light-alpha);
+body, main {
+	background-color: var(--background-color-light-beta);
 	color: var(--text-color-dark-alpha);
 }
 
@@ -137,18 +136,21 @@ button {
 
 .btn_container {
 	margin: 36px auto 0 auto;
+	text-align: center;
 }
 
 .btn {
-	padding: 12px 20px;
+	padding: 24px;
 	border-radius: 4px;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1;
+	text-align: center;
+	margin: 0 auto;
 	vertical-align: baseline;
 }
 .btn_primary {
-	color: var(--light-text-color-primary);
+	color: var(--text-color-light-alpha);
 	background: linear-gradient(
 		135deg,
 		rgba(117, 16, 247, 1) 0%,

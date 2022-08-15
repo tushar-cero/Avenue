@@ -31,7 +31,14 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    transform: translate(0);
+    transition: 0.4s ease-in;
 }
+
+#NavigationSideDrawer ul li:first-child { transition-delay: 0.2s; }
+#NavigationSideDrawer ul li:nth-child(2) { transition-delay: 0.4s; }
+#NavigationSideDrawer ul li:nth-child(3) { transition-delay: 0.6s; }
+#NavigationSideDrawer ul li:nth-child(4) { transition-delay: 0.8s; }
 
 #NavigationSideDrawer ul li a:hover,
 #NavigationSideDrawer .close_btn:hover {
