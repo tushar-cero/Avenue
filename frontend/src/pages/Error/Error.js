@@ -6,6 +6,9 @@ import Header from '../../components/Header/Header';
 import NavigationSideDrawer from "../../components/NavigationSideDrawer/NavigationSideDrawer"
 
 const Error = () => {
+
+    window.onscroll = () => {};
+
     return (
         <React.Fragment>
             <Header/>

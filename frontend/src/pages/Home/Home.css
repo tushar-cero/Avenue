@@ -159,15 +159,12 @@ span, .join_us_links_btn i {
 @keyframes wobble {
 	0%, 50%, 100%{
 		transform: translateY(0px)
-		/* transform: rotate(0deg); */
 	}
 	25% {
 		transform: translateY(12px)
-		/* transform: rotate(2deg); */
 	}
 	75% {
 		transform: translateY(-12px)
-		/* transform: rotate(3deg); */
 	}
 }
 

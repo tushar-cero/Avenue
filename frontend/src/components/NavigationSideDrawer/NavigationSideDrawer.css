@@ -40,12 +40,13 @@
 #NavigationSideDrawer ul li:nth-child(3) { transition-delay: 0.6s; }
 #NavigationSideDrawer ul li:nth-child(4) { transition-delay: 0.8s; }
 
-#NavigationSideDrawer ul li a:hover,
+#NavigationSideDrawer ul li:hover,
 #NavigationSideDrawer .close_btn:hover {
     color: var(--primary-color);
+    text-decoration: underline var(--primary-color);
     transition: all 0.35s ease-in;
 }
-#NavigationSideDrawer ul li a:after {
+/* #NavigationSideDrawer ul li:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -57,10 +58,10 @@
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
-#NavigationSideDrawer ul li a:hover:after {
+#NavigationSideDrawer ul li:hover:after {
     width: 100%;
     left: 0;
-}
+} */
 
 .NavigationSideDrawerClosing {
     position: absolute;

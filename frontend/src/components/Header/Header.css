@@ -7,17 +7,17 @@ header {
 	font-weight: 600;
 	font-family: "Roboto", sans-serif;
 	z-index: 5;
-	color: var(--text-color-light-alpha);
-	background-color: var(--background-color-dark-alpha);
+	color: var(--text-color-dark-alpha);
+	background-color: transparent;
 }
 header.header_background,
 header:hover {
-	background-color: var(--background-color-dark-gamma);
+	background-color: var(--background-color-light-beta);
 	transition: all 0.35s ease-out;
 }
 
 header .header_logo {
-	background-image: url(../../assets/logo/logo_no_bg.png);
+	background-image: url(../../assets/logo/alt_logo_white_bg.png);
 	height: 100px;
 	width: 100px;
 }
@@ -29,7 +29,7 @@ header ul {
 	align-items: center;
 }
 header ul li:hover {
-	color: var(--secondary-color-alpha);
+	color: var(--tertiary-color-alpha);
 	transition: all 0.35s ease-out;
 }
 

@@ -3,10 +3,11 @@ import "./Home.css";
 
 import Header from "../../components/Header/Header.js";
 import NavigationSideDrawer from '../../components/NavigationSideDrawer/NavigationSideDrawer';
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
 
-    window.onscroll = () => { };
+    window.onscroll = () => {};
 
     return (
         <React.Fragment>
@@ -127,12 +128,13 @@ const Home = () => {
                         <p>We are hiring across all divisions. Drop your university email below and we'll get back to you.</p>
                     </div>
                 </div>
-                <footer className="background_image">
+                {/* <footer className="background_image">
                     <div className="container">
                         <div className="footer_logo background_image_contain"></div>
                         <p>© Avenue DYPIU 2022 | All rights reserved. ®</p>
                     </div>
-                </footer>
+                </footer> */}
+                <Footer/>
             </article>
         </React.Fragment>
     );

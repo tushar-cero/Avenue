@@ -1,0 +1,73 @@
+.About_Showcase {
+    height: 400px;
+}
+
+.About_Team .team_member_template {
+    max-width: 280px;
+    min-height: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-light-gamma);
+}
+
+.About_Team .team_member_template .team_member_template_header {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.About_Team .team_member_template .team_member_template_header .team_member_template_header_banner {
+    background-image: url('../../assets/background_images/team_banner.png');
+    height: 160px;
+    border-radius: 16px 16px 0 0;
+}
+.About_Team .team_member_template .team_member_template_header .team_member_template_header_image {
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    height: 120px;
+    width: 120px;
+    border: #fff 3px solid;
+    border-radius: 60px;
+    background-image: url('../../assets/team/dummy.jpeg');
+}
+.About_Team .team_member_template .team_member_template_header .team_member_template_header_social {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    font-size: 16px;
+    height: 48px;
+    width: 48px;
+}
+.About_Team .team_member_template .team_member_template_header .team_member_template_header_social:hover {
+    background-color: var(--background-color-light-alpha);
+    color: #0e76a8;
+    transition: all 0.35s ease;
+}
+
+
+
+.About_Team .team_member_template .team_member_template_info {
+    padding: 16px 0 30px 30px ;
+    line-height: 2;
+}
+.About_Team .team_member_template .team_member_template_info .team_member_template_info_name {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-color-dark-alpha);
+}
+.About_Team .team_member_template .team_member_template_info .team_member_template_info_position {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color-dark-beta);
+}

@@ -63,6 +63,7 @@ button {
 	--secondary-color-alpha: #f7f61c;
 	--tertiary-color-alpha: #4e40f5;
 	--tertiary-color-beta: #8076fe;
+	--primary-logo-color: #03f1f1;
 	
 	--background-color-dark-alpha: #202020;
 	--background-color-dark-beta: #161616;
@@ -70,6 +71,7 @@ button {
 	--background-color-dark-delta: rgba(32, 32, 32, 0.75);
 	
 	--background-color-light-alpha: #f9f9f9;
+	--background-color-light-beta: #f0f0f0;
 	--background-color-light-gamma: #fff;
 	
 	--background-color-tertiary-alpha: rgba(78, 64, 245, 0.75);
