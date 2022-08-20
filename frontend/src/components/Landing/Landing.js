@@ -5,7 +5,7 @@ const Landing = ({heading}) => {
 
     const [landingBackground, setLandingBackground] = useState(false);
     const handleLandingBackground = () => {
-        if(window.scrollY >= 100)
+        if(window.scrollY >= 50)
             setLandingBackground(true); 
         else
             setLandingBackground(false); 
