@@ -10,6 +10,7 @@ header {
 	color: var(--text-color-dark-alpha);
 	background-color: transparent;
 }
+
 header.header_background,
 header:hover {
 	background-color: var(--background-color-light-beta);

@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css';
 import Header from '../../components/Header/Header';
 import NavigationSidedrawer from '../../components/NavigationSideDrawer/NavigationSideDrawer';
+import Landing from "../../components/Landing/Landing";
 import Footer from '../../components/Footer/Footer';
 
 const About = () => {
@@ -10,12 +11,9 @@ const About = () => {
 
     return (
         <React.Fragment>
-            <article className="About_Landing">
-                <div className="container">
-                    <Header/>
-                    <NavigationSidedrawer/>
-                </div>
-            </article>
+            <Header/>
+            <NavigationSidedrawer/>
+            <Landing heading='ABOUT US'/>
             <article className='About_Showcase'>
                 <div className="container">
                     

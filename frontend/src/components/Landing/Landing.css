@@ -1,0 +1,74 @@
+.Landing_Page {
+    height: 80vh;
+    min-height: 500px;
+    width: 100%;
+    padding: 0px 24px 24px 24px;
+    margin-top: 100px;
+}
+.Landing_Page .landing_page_container {
+    position: relative;
+    background-image: url('../../assets/background_images/landing_background.jpeg');
+    border-radius: 24px;
+}
+.Landing_Page .landing_page_container .landing_page_container_body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 24px;
+}
+.Landing_Page .landing_page_container .landing_page_container_body .landing_page_container_body_heading {
+    background: linear-gradient(to right, #03f1f1, #f7f71d);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 160px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Transitions */
+
+.Landing_Page.landing_padding {
+    padding: 0;
+    transition: all 0.6s ease-out;
+}
+.Landing_Page .landing_page_container.border_radius ,
+.Landing_Page .landing_page_container .landing_page_container_body.border_radius {
+    border-radius: 0;
+    transition: all 0.6s ease-out;
+}
+
+/* Media Query */
+
+@media (max-width: 960px) {
+    .Landing_Page .landing_page_container .landing_page_container_body .landing_page_container_body_heading {
+        font-size: 120px;
+    }
+}
+@media (max-width: 720px) {
+    .Landing_Page .landing_page_container .landing_page_container_body .landing_page_container_body_heading {
+        font-size: 96px;
+    }
+}
+@media (max-width: 560px) {
+    .Landing_Page .landing_page_container .landing_page_container_body .landing_page_container_body_heading {
+        font-size: 72px;
+    }
+}
+@media (max-width: 960px) {
+    .Landing_Page .landing_page_container .landing_page_container_body .landing_page_container_body_heading {
+        font-size: 120px;
+    }
+}
+/* 
+@media (max-width: 960px) {
+    .Landing_Page .landing_page_container .landing_page_container_body .landing_page_container_body_heading {
+        font-size: 120px;
+    }
+} 
+*/
